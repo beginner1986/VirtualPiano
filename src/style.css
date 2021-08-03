@@ -11,6 +11,7 @@ body {
     border: solid black 3px;
     display: inline-block;
     height: 200px;
+    line-height: 350px;
     text-align: center;
     width: 50px;
     z-index: 1;
@@ -22,10 +23,27 @@ body {
     color: white;
     display: inline-block;
     height: 120px;
+    line-height: 180px;
     text-align: center;
-    transform: translate(30px, -200px);
+    transform: translate(30px, -205px);
     width: 40px;
     z-index: 2;
+}
+
+#key-e {
+    transform: translate(45px, -205px);
+}
+
+#key-t {
+    transform: translate(115px, -205px);
+}
+
+#key-y {
+    transform: translate(125px, -205px);
+}
+
+#key-u {
+    transform: translate(135px, -205px);
 }
 
 .container {
