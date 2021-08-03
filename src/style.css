@@ -1,0 +1,37 @@
+body {
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.white-keys kbd {
+    background-color: white;
+    border: solid black 3px;
+    display: inline-block;
+    height: 200px;
+    text-align: center;
+    width: 50px;
+    z-index: 1;
+}
+
+.black-keys kbd {
+    background-color: black;
+    border: solid black 3px;
+    color: white;
+    display: inline-block;
+    height: 120px;
+    text-align: center;
+    transform: translate(30px, -200px);
+    width: 40px;
+    z-index: 2;
+}
+
+.container {
+    align-items: center;
+    display: inline-block;
+    height: 400px;
+    justify-content: center;
+    margin: 20% 30%;
+}
